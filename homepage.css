@@ -136,7 +136,6 @@ div.about p {
 
 div.views {
     display: flex;
-    flex-wrap:wrap;
     justify-content: space-between;
     margin-bottom: 40px;
     margin-top: 40px;
