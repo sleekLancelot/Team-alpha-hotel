@@ -136,6 +136,7 @@ div.about p {
 
 div.views {
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-between;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -321,7 +322,7 @@ footer {
     height: 30vh;
     padding: 70px;
     display: grid;
-    grid-template-columns: repeat(43 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
     padding-bottom: 30px;
     color: #fff;
